@@ -2,7 +2,7 @@
 
   > Check if value is defined
 
-  Not null, nan or undefined
+  Not `null`, `NaN` or `undefined`
 
 ## Install
 

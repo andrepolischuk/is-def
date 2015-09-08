@@ -1,8 +1,8 @@
 # is-def [![Build Status][travis-image]][travis-url]
 
-  > Check if value is defined
+> Check if value is defined
 
-  Not `null`, `NaN` or `undefined`
+Not `null`, `NaN` or `undefined`
 
 ## Install
 
@@ -14,7 +14,6 @@ npm install --save is-def
 
 ```js
 var isDefined = require('is-def');
-
 isDefined(null); // false
 isDefined(undefined); // false
 isDefined(NaN); // false
@@ -23,7 +22,7 @@ isDefined('hello'); // true
 
 ## License
 
-  MIT
+MIT
 
 [travis-url]: https://travis-ci.org/andrepolischuk/is-def
 [travis-image]: https://travis-ci.org/andrepolischuk/is-def.svg?branch=master
